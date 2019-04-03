@@ -1,0 +1,188 @@
+:root {
+  --purple: #DCDDE8;
+  --grey: #343a40;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Abuget'; /*a name to be used later*/
+    src: url('../fonts/Abuget.ttf'); /*URL to font*/
+}
+
+.container{
+  width: 1000px;
+  font-size: 20px;
+}
+
+.navbar-expand-sm{
+  padding: 0;
+}
+
+.maincontainer{
+  width: 70%;
+  margin: auto;
+}
+
+.row{
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.infosmenu{
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.horizontalbox h4 {
+  text-align: center;
+  margin: 30px;
+  margin-top : 10px;
+}
+
+.horizontalbox{
+  display: flex;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 0.8px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.imageside{
+  background-image: url("../images/vision.jpg");
+  background-size: cover;
+  width: 26%;
+}
+
+.textside{
+  width: 74%;
+  padding: 10px;
+  float: left;
+  text-align: justify;
+}
+
+.horizontalbox p{
+  margin : 0;
+}
+
+.supporters{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.financers{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logos img{
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  margin: 10px;
+}
+
+.logocarre{
+  max-width: 110px !important;
+}
+
+.socialmedia .maincontainer{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer{
+  padding-bottom: 10px;
+}
+
+.footertext{
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* page2 */
+.videopresentation {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.videopresentation div {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.videopresentation iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 600px) {
+  .container{
+     margin: 0px 15px 0px 15px;
+  }
+
+  .maincontainer{
+    width: 90%;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  .imageside{
+    width: 100%;
+  }
+
+  .textside{
+    width: 100%;
+  }
+
+  .alignright{
+    text-align: left;
+  }
+
+  .right{
+    flex-direction: column-reverse;
+  }
+
+  .logos img{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
