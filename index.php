@@ -76,7 +76,7 @@
         </div>
       </div>
     </section>
-
+    
     <footer>
       <div class="footertext">
         <a href="#">Mention légales </a><small>© ILYA Tous droits réservés</small>

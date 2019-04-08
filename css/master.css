@@ -131,24 +131,28 @@ footer{
 }
 
 /* page2 */
-.videopresentation {
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
+#videopresentation {
   padding-top: 20px;
+  padding-bottom : 50px;
 }
 
-.videopresentation div {
-  position: relative;
-  padding-bottom: 56.25%;
+.image_container{
+  text-align: center;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius:50%;
 }
 
-.videopresentation iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+.image_container img{
   height: 100%;
+}
+
+#boxpresentation p{
+  padding: 20px;
+  text-align: justify;
+  padding-bottom: 30px;
 }
 
 /* MEDIA QUERY */
