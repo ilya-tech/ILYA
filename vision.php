@@ -42,8 +42,10 @@
       </div>
     </section>
 
-    <section id="participe">
-      <h1>participe</h1>
+    <section id="participer">
+      <div class="maincontainer">
+        <button type="button" class="btn btn-primary"><h3>Participes dés maintenant</h3></button>
+      </div>
     </section>
 
 
