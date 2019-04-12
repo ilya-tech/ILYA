@@ -13,7 +13,7 @@
 
         <div class="row horizontalbox">
           <div class="imageside">
-            <h4>Notre vision<h4>
+            <h4>Notre vision</h4>
           </div>
           <div class="textside">
             <p>loremipsum dolor loremipsum loremipsum dolorloremipsum dolorloremipsum dolor dolorloremipsusum dolorloremipsum
@@ -28,13 +28,13 @@
 			en énergie), puis de l'association Green'INSA (sensibilisation au développement durable)... <a href="#">En savoir plus</a> </p>
           </div>
           <div class="imageside">
-            <h4>Notre équipe<h4>
+            <h4>Notre équipe</h4>
           </div>
         </div>
 
         <div class="row horizontalbox">
           <div class="imageside">
-            <h4>Notre offre<h4>
+            <h4>Notre offre</h4>
           </div>
           <div class="textside">
             <p>loremipsum dolor loremipsum dolorloremipsum dolorloremipsum dolor loremipsum dolorloremipsusum dolorloremipsum
@@ -76,7 +76,7 @@
         </div>
       </div>
     </section>
-    
+
     <footer>
       <div class="footertext">
         <a href="#">Mention légales </a><small>© ILYA Tous droits réservés</small>

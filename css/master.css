@@ -19,13 +19,14 @@ body{
   font-size: 20px;
 }
 
-.navbar-expand-sm{
+.navbar{
   padding: 0;
 }
 
 .maincontainer{
-  width: 70%;
+  width: 90%;
   margin: auto;
+  max-width: 850px;
 }
 
 .row{
@@ -131,30 +132,31 @@ footer{
 }
 
 /* page2 */
+.col-md{
+  padding: 0;
+}
+
 #videopresentation {
   padding-top: 20px;
   padding-bottom : 50px;
 }
 
-.image_container{
-  text-align: center;
-  margin: auto;
-  width: 180px;
-  height: 180px;
-  overflow: hidden;
+#boxpresentation img{
+  display: block;
+  width: 70%;
+  max-width: 200px;
   border-radius:50%;
-}
-
-.image_container img{
-  height: 100%;
+  margin: auto;
 }
 
 #boxpresentation p{
-  padding: 20px;
   text-align: justify;
-  padding-bottom: 30px;
+  padding: 20px;
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 40px;
 }
-/* alternatif ON*/
+/* box kickstarter alternative (non affichée sur page vision)*/
 #participe{
     background-color: var(--purple);
     padding-top: 20px;
@@ -182,14 +184,39 @@ footer{
 #participer h3{
   margin: 0;
 }
+
+/* page 3 (vision ) */
+
+#boxequipe{
+  text-align: center;
+}
+
+#boxequipe .equipe_presentation{
+  padding : 20px;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#boxequipe img{
+  display: block;
+  width: 70%;
+  max-width: 200px;
+  margin: auto;
+}
+
+#boxequipe .col-md p{
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 600px) {
   .container{
      margin: 0px 15px 0px 15px;
-  }
-
-  .maincontainer{
-    width: 90%;
   }
 
   h1{
@@ -232,5 +259,4 @@ footer{
   #participe .box_ks h3{
     margin-bottom: 10px;
   }
-
 }
