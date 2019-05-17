@@ -23,6 +23,10 @@ body{
   padding: 0;
 }
 
+.navbar a.active{
+  color: black;
+}
+
 .maincontainer{
   width: 90%;
   margin: auto;
@@ -156,28 +160,11 @@ footer{
   margin: auto;
   margin-bottom: 40px;
 }
-/* box kickstarter alternative (non affichée sur page vision)*/
-#participe{
-    background-color: var(--purple);
-    padding-top: 20px;
-}
-#participe .box_ks{
-  display: flex;
-  padding: 4%;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
+
+#participer{
+  margin-bottom: 40px;
 }
 
-#participe .box_ks iframe{
-  margin-right: 5%;
-  margin-bottom: -40px;
-}
-
-#participe .box_ks p{
-  text-align: justify;
-}
-/* alternatif OFF*/
 #participer .maincontainer{
   text-align: center;
 }
@@ -213,6 +200,50 @@ footer{
   margin-bottom: 40px;
 }
 
+#offres_emploi{
+  margin-bottom: 100px;
+}
+
+#offres_emploi #titre_poste{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#offres_emploi h6{
+  font-weight: bold;
+}
+
+#offres_emploi #postuler_btn{
+  position: absolute;
+  bottom: 10px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 25px;
+}
+
+#offres_emploi .modal{
+  padding-right: 0 !important;
+}
+
+#offres_emploi .col-md-5{
+  background-image: url("../images/developpeur.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  min-height: 300px;
+}
+
+#offres_emploi .col-md-7{
+  background-color: #EAE6DA;
+  max-height: 300px;
+  overflow: auto;
+  padding: 30px;
+}
 /* MEDIA QUERY */
 @media screen and (max-width: 600px) {
   .container{

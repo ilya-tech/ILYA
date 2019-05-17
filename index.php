@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
+    <meta name="title" content="Ilya - Accueil">
+    <meta name="description" content="ILYA développe des solutions innovantes et durables pour réduire l'impact environnemental des gestes du quotidien, informez vous sur nous dés maintenant">
+    <?php $page='index' ?>
     <?php include('included_contents/head.html'); ?>
   </head>
 
   <body>
-    <?php include('included_contents/navbar.html'); ?>
+    <?php include('included_contents/navbar.php'); ?>
 
     <section class="infosmenu">
       <div class="maincontainer">

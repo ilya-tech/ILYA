@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
+    <meta name="title" content="Ilya - Notre vision">
+    <meta name="description" content="Notre vision et ambitions pour l'avenir.">
+    <?php $page='vision' ?>
     <?php include('included_contents/head.html'); ?>
   </head>
 
   <body>
-    <?php include('included_contents/navbar.html'); ?>
+    <?php include('included_contents/navbar.php'); ?>
 
 
     <section id="videopresentation">
